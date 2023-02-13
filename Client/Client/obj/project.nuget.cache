@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "jdEFp13G8Uubi5pYsfEcy2T2YkAoFX0RT14snzYxMeSluw29aa6getjIy0l0uMOKburSjSkSYSi3qE4Kvgv25g==",
+  "dgSpecHash": "rEnu2Lj0CKlJfEqoERyKKHsOYxaxbAAix0O0hCHEs2GxMO8WPKWF48h2IFtWOmwXNm5ZxYEwvOz1jQjberRc5Q==",
   "success": true,
-  "projectFilePath": "C:\\Users\\asimg\\source\\repos\\Client\\Client\\Client.csproj",
+  "projectFilePath": "C:\\Users\\asimg\\Documents\\GitHub\\TextReverser\\Client\\Client\\Client.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\asimg\\.nuget\\packages\\microsoft.extensions.configuration\\7.0.0\\microsoft.extensions.configuration.7.0.0.nupkg.sha512",
     "C:\\Users\\asimg\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\7.0.0\\microsoft.extensions.configuration.abstractions.7.0.0.nupkg.sha512",

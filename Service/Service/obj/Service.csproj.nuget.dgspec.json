@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\asimg\\Documents\\GitHub\\TextReverser\\Client\\Client\\Client.csproj": {}
+    "C:\\Users\\asimg\\Documents\\GitHub\\TextReverser\\Service\\Service\\Service.csproj": {}
   },
   "projects": {
-    "C:\\Users\\asimg\\Documents\\GitHub\\TextReverser\\Client\\Client\\Client.csproj": {
+    "C:\\Users\\asimg\\Documents\\GitHub\\TextReverser\\Service\\Service\\Service.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\asimg\\Documents\\GitHub\\TextReverser\\Client\\Client\\Client.csproj",
-        "projectName": "Client",
-        "projectPath": "C:\\Users\\asimg\\Documents\\GitHub\\TextReverser\\Client\\Client\\Client.csproj",
+        "projectUniqueName": "C:\\Users\\asimg\\Documents\\GitHub\\TextReverser\\Service\\Service\\Service.csproj",
+        "projectName": "Service",
+        "projectPath": "C:\\Users\\asimg\\Documents\\GitHub\\TextReverser\\Service\\Service\\Service.csproj",
         "packagesPath": "C:\\Users\\asimg\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\asimg\\Documents\\GitHub\\TextReverser\\Client\\Client\\obj\\",
+        "outputPath": "C:\\Users\\asimg\\Documents\\GitHub\\TextReverser\\Service\\Service\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -45,21 +45,9 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
-            "Microsoft.Extensions.DependencyInjection": {
+            "Swashbuckle.AspNetCore": {
               "target": "Package",
-              "version": "[7.0.0, )"
-            },
-            "Microsoft.Extensions.Hosting": {
-              "target": "Package",
-              "version": "[7.0.0, )"
-            },
-            "Microsoft.Extensions.Http": {
-              "target": "Package",
-              "version": "[7.0.0, )"
-            },
-            "Newtonsoft.Json": {
-              "target": "Package",
-              "version": "[13.0.2, )"
+              "version": "[6.2.3, )"
             }
           },
           "imports": [
@@ -74,6 +62,9 @@
           "assetTargetFallback": true,
           "warn": true,
           "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
