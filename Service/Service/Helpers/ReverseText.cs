@@ -2,7 +2,7 @@
 {
     public class ReverseText
     {
-        public string ReverseString(string text)
+        public string ReverseData(string text)
         {
             char[] charText = text.ToCharArray();
             Array.Reverse(charText);

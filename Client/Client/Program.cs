@@ -9,9 +9,9 @@ namespace Client;
 
 internal class Program
 {
-    static readonly string inputText = @"C:\Users\asimg\Desktop\in.txt";
-    static readonly string outputText = @"C:\Users\asimg\Desktop\out.txt";
-    static readonly string url = @"https://localhost:7013/api/Reverse";
+    static readonly string inputText = @"C:\ClientService\in.txt";
+    static readonly string outputText = @"C:\ClientService\out.txt";
+    static readonly string url = @"https://localhost:7052/api/Reverse";
 
     static async Task Main(string[] args)
     {
@@ -38,9 +38,9 @@ internal class Program
                 var jsonReq = JsonConvert.SerializeObject(request);
 
                 using var client = clientFactory.CreateClient();
-                var httpResponse = await client.PostAsync(url,
-                    new StringContent(jsonReq, Encoding.UTF8, "application/json"));
+                var httpResponse = await client.PostAsync(url, new StringContent(jsonReq, Encoding.UTF8, "application/json"));
                 var response = await httpResponse.Content.ReadAsStringAsync();
+
                 lines.Add(response);
             }
             File.WriteAllLines(outputText, lines.ToArray());

@@ -4,6 +4,9 @@ using Service.Models;
 
 namespace Service.Controllers
 {
+
+    [Route("api/[controller]")]
+    [ApiController]
     public class ReverseController : Controller
     {
         private readonly ReverseText reverseText;
@@ -14,9 +17,9 @@ namespace Service.Controllers
         }
 
         [HttpPost]
-        public string ReverseString([FromBody] Data apiData)
+        public string ReverseText([FromBody] Data apiData)
         {
-            return apiData.Text = reverseText.ReverseString(apiData.Text);
+            return apiData.Text != null ? reverseText.ReverseData(apiData.Text) : null;
         }
     }
 }
